@@ -1,5 +1,7 @@
 import React from 'react';
+// import { FaUser, FaShoppingCart, FaTruck } from 'react-icons/fa'; // Import icons
 import Header from './components/Header'; // Import the Header component
+import Footer from './components/Footer'; 
 import './App.css'; // Import global styles
 
 function App() {
@@ -7,10 +9,12 @@ function App() {
     <div className="App">
       <Header /> {/* Include the Header component */}
       <main>
-        {/* Add other components or content here */}
+        {/* Add other components or content here
         <h1>Welcome to Lakshmi Routique</h1>
-        <p>Explore our latest collections and exclusive offers.</p>
+        <p>Explore our latest collections and exclusive offers.</p> */}
+        
       </main>
+      <Footer /> {/* Add Footer at the bottom */}
     </div>
   );
 }
