@@ -1,0 +1,62 @@
+.home-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .collection-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .saree-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .saree-card {
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+  }
+  
+  .saree-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .saree-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+  }
+  
+  .saree-price {
+    color: #e91e63;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .view-all-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #e91e63;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .view-all-btn:hover {
+    background-color: #c2185b;
+  }
